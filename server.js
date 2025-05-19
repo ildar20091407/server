@@ -22,6 +22,7 @@ app.get('/api/products', (req, res) => {
     res.json(products);
 });
 
+
 // Route to add a product to the cart
 app.post('/api/cart', (req, res) => {
     const productId = req.body.productId;
